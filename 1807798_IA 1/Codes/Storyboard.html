@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background: #f0f5ff;
+        }
+        nav{
+            display:flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        .details {
+            margin-left: 8%;
+            margin-top: 2%;
+        }
+        .details h1 {
+            font-size: 50px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .details h1 span {
+            color: #00ced9;
+        }
+        .details p {
+            font-size: 16px;
+            color: #000000;
+            line-height: 24px;
+            text-align: center;
+        }
+        .images {
+            width: 45%;
+            height: 80%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 100%;
+        }
+        .images img {
+            height: 100%;
+            position:absolute;
+            bottom: 0;
+            left: 100%;
+            transform: translateY(-100%);
+            transform: translateZ(-50px);
+        }
+        .images img:first-child {
+            width: 80%;
+            height: auto;
+            position: absolute;
+            bottom: 0%;
+            right: 0;
+            margin-right: 0px;
+            margin-left: -500px;
+            margin-top: -600px;
+            transform: translateY(80%);
+            transform: translateZ(-50px);
+            scale: 0.8;
+        }
+        .images img:nth-child(2) {
+            width: 75%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: 150px;
+            margin-top: 200px;
+            transform: translateY(80%);
+            transform: translateZ(-60px);
+            scale: 0.8;
+        }
+        .images img:nth-child(3) {
+            width: 70%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: -300px;
+            margin-top: 563px;
+            transform: translateY(80%);
+            transform: translateZ(-70px);
+            scale: 0.9;
+        }
+        .images img:nth-child(4) {
+            width: 65%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: 200px;
+            margin-top: 580px;
+            transform: translateY(80%);
+            transform: translateZ(-75px);
+            scale: 0.95;
+        }
+        .images img:nth-child(5) {
+            width: 60%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: -500px;
+            margin-top: 890px;
+            transform: translateY(80%);
+            transform: translateZ(-75px);
+            scale: 0.8;
+        }
+        .images img:nth-child(6) {
+            width: 55%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: -50px;
+            margin-top: 900px;
+            transform: translateY(80%);
+            transform: translateZ(-75px);
+            scale: 0.9;
+        }
+        .images img:last-child {
+            width: 75%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin-left: 300px;
+            margin-top: 850px;
+            transform: translateY(80%);
+            transform: translateZ(-80px);
+            border-radius: 0%;
+            scale: 0.65;
+        }
+         .button {
+            position: absolute;
+            bottom: 0px;  
+            left: 50%;
+            border-radius: 25px;
+            margin-top: 0px;
+            margin-bottom: 400px;
+        }
+        .button button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            background-color: #00ced9;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button button:hover {
+            background-color: #02bfc9;
+        }
+          </style>
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\logo.png" alt="Logo" class="logo" style="width: 50px; height: 30px;">
+                <ul>
+                    <li><a href="Portfolio%20Website.html">Home</a></li>
+                    <li><a href="Background.html">Background</a></li>
+                    <li><a href="Professional.html">Professional</a></li>
+                    <li><a href="Personality.html">Personality</a></li>
+                    <li><a href="Personal_Development.html">Personal Development</a></li>
+                    <li><a href="Storyboard.html">Storyboard</a></li>
+                    <li><a href="References.html">References</a></li>
+                </ul>
+            </nav>
+            <div class="details">
+                <h1>Storyboard</h1>
+                <p>In this section, I will present the thoughts behind this project, outlining transitions and visual elements that will 
+                    <br>be included. This will serve as a blueprint for the development process and ensure a cohesive narrative throughout the project.</p>
+                <br>
+                <br>
+                <div class="button">
+                    <a href="file:///C:/Users/chris/Desktop/1807798_IA%201/Assets/Storyboard%20page.pdf">
+                    <button>Storyboard PDF</button>
+                </a>
+                </div>
+
+                <div class="images">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3608.jpg" alt="Storyboard Image 1">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3609.jpg" alt="Storyboard Image 2">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3610.jpg" alt="Storyboard Image 3">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3611.jpg" alt="Storyboard Image 4">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3612.jpg" alt="Storyboard Image 5">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3613.jpg" alt="Storyboard Image 6">
+                    <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\IMG_3614.jpg" alt="Storyboard Image 7">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

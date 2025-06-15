@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+            * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .hero {
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background: #f0f5ff;
+        }
+        nav{
+            display:flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+            margin: 10px 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        nav ul li a:hover {
+            color: #007bff;
+        }
+        .details {
+            margin-left: 8%;
+            margin-top: 2%;
+        }
+        .details h1 {
+            font-size: 50px;
+            color: #000000;
+            margin-bottom: 20px;
+        }
+        .details h1 span {
+            color: #00ced9;
+        }
+        .details p {
+            font-size: 16px;
+            color: #000000;
+            line-height: 24px;
+            text-align: center;
+        }
+        .images {
+            width: 45%;
+            height: 80%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 100%;
+        }
+        .images img {
+            height: 100%;
+            position:absolute;
+            bottom: 0;
+            left: 100%;
+            transform: translateY(-100%);
+            transform: translateZ(-50px);
+        }
+        .images img:first-child {
+            width: 80%;
+            height: auto;
+            position: absolute;
+            bottom: 10%;
+            right: 0;
+            transform: translateY(80%);
+            transform: translateZ(-50px);
+        }
+        .images img:last-child {
+            width: 75%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateY(80%);
+            transform: translateZ(-80px);
+            border-radius: 50%;
+        }
+          </style>
+    </head>
+    <body>
+        <div class="hero">
+            <nav>
+                <img src="C:\Users\chris\Desktop\1807798_IA 1\Assets\images\logo.png" alt="Logo" class="logo" style="width: 50px; height: 30px;">
+                <ul>
+                    <li><a href="Portfolio%20Website.html">Home</a></li>
+                    <li><a href="Background.html">Background</a></li>
+                    <li><a href="Professional.html">Professional</a></li>
+                    <li><a href="Personality.html">Personality</a></li>
+                    <li><a href="Personal_Development.html">Personal Development</a></li>
+                    <li><a href="Storyboard.html">Storyboard</a></li>
+                    <li><a href="References.html">References</a></li>
+                </ul>
+            </nav>
+            <div class="details">
+                <h1>References</h1>
+                <p>In this section, I will provide a list of references that have influenced my work 
+                    <br>and development. This will include videos and other resources that I have found valuable.</p>
+            </div>
+            <li><a href="https://www.youtube.com/watch?v=tDqTXipQmBU&ab_channel=BroCode">Bro Code - YouTube</a></li>
+            <li><a href="https://www.youtube.com/watch?v=-Yw9gBHE60E&ab_channel=CodingNinjas">Coding Ninjas - YouTube</a></li>
+            <li><a href="https://www.geeksforgeeks.org/html/how-to-link-a-button-to-another-page-in-html/">GeeksforGeeks - How to Link a Button to Another Page in HTML</a></li>
+            <li><a href="https://insightglobal.com/blog/what-is-a-graphic-designer/">Insight Global - What is a Graphic Designer?</a></li>
+            <li><a href="https://www.keirsey.com/">Keirsey - Personality Types</a></li>
+            <li><a href="https://www.youtube.com/watch?v=0KlhsihenPA&ab_channel=QuickCodeAcademy">Quick Code Academy - YouTube</a></li>
+            <li><a href="Rohn, J., & Widener, C. (n.d.). 4-7. essay, Jim Rohn International and Chris Widener International.
+            <br> https://www.jimrohn.com/4-7-essay/">Jim Rohn - 4-7 Essay</a></li>
+            <li><a href="https://www.w3schools.com/howto/howto_css_topnav_centered.asp">W3Schools - How To Center a Navigation Bar</a></li>
+            <li><a href="https://brainstation.io/career-guides/what-does-a-graphic-designer-do">BrainStation - What Does a Graphic Designer Do?</a></li>
+        </div>
+    </body>
+</html>
